@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64105D991A81D61D00B6D7A4 /* slidecolorpic.png in Resources */ = {isa = PBXBuildFile; fileRef = 64105D981A81D61D00B6D7A4 /* slidecolorpic.png */; };
 		64E3B55C1A6E019D0034CEE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E3B55B1A6E019D0034CEE0 /* main.m */; };
 		64E3B55F1A6E019D0034CEE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E3B55E1A6E019D0034CEE0 /* AppDelegate.m */; };
 		64E3B5621A6E019D0034CEE0 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E3B5611A6E019D0034CEE0 /* Home.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64105D981A81D61D00B6D7A4 /* slidecolorpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = slidecolorpic.png; path = SlideColor/slidecolorpic.png; sourceTree = "<group>"; };
 		64E3B5561A6E019D0034CEE0 /* SlideColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E3B55A1A6E019D0034CEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64E3B55B1A6E019D0034CEE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,9 +62,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64105D971A81D5C600B6D7A4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				64105D981A81D61D00B6D7A4 /* slidecolorpic.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		64E3B54D1A6E019D0034CEE0 = {
 			isa = PBXGroup;
 			children = (
+				64105D971A81D5C600B6D7A4 /* image */,
 				64E3B5581A6E019D0034CEE0 /* SlideColor */,
 				64E3B5721A6E019E0034CEE0 /* SlideColorTests */,
 				64E3B5571A6E019D0034CEE0 /* Products */,
@@ -199,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64105D991A81D61D00B6D7A4 /* slidecolorpic.png in Resources */,
 				64E3B5651A6E019D0034CEE0 /* Main.storyboard in Resources */,
 				64E3B56A1A6E019D0034CEE0 /* LaunchScreen.xib in Resources */,
 				64E3B5671A6E019D0034CEE0 /* Images.xcassets in Resources */,
@@ -412,6 +424,7 @@
 				64E3B57B1A6E019E0034CEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64E3B57C1A6E019E0034CEE0 /* Build configuration list for PBXNativeTarget "SlideColorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				64E3B57E1A6E019E0034CEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

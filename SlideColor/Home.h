@@ -25,10 +25,15 @@
 
 @property (strong, nonatomic) IBOutlet UISlider *sldBlue;
 
+@property (strong, nonatomic) IBOutlet UISlider *sldalpha;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblBlink;
+
 //Actions
 - (IBAction)actionRed:(id)sender;
 - (IBAction)actionGreen:(id)sender;
 - (IBAction)actionBlue:(id)sender;
+- (IBAction)sldalpha:(id)sender;
 
 
 @end
